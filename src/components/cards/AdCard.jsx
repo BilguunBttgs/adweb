@@ -7,28 +7,26 @@ import {
   Button,
 } from "@material-tailwind/react";
 
-export function CardDefault() {
+export function AdCard() {
   return (
-    <Card className="mt-6 w-96">
-      <CardHeader color="blue-gray" className="relative h-56">
-        <img
-          src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
-          alt="card-image"
-        />
-      </CardHeader>
-      <CardBody>
-        <Typography variant="h5" color="blue-gray" className="mb-2">
-          UI/UX Review Check
-        </Typography>
-        <Typography>
-          The place is close to Barceloneta Beach and bus stop just 2 min by
-          walk and near to &quot;Naviglio&quot; where you can enjoy the main
-          night life in Barcelona.
-        </Typography>
-      </CardBody>
-      <CardFooter className="pt-0">
-        <Button>Read More</Button>
-      </CardFooter>
-    </Card>
+    <div className="w-[32.5%] h-[400px] border-2 rounded-md p-3 cursor-pointer">
+      <img
+        className="rounded-t-md w-full h-56 object-cover"
+        src="https://ninetheme.com/themes/fitment/wp-content/uploads/2023/12/akkon-300x300.jpg"
+        alt="card-image"
+      />
+
+      <h3 color="blue-gray" className="mt-2 text-sm font-medium">
+        AKKON - Fit 09-18 Dodge Ram DRL
+      </h3>
+      <p className="text-orange-600 font-bold text-sm">200,000₮</p>
+      <p className="line-clamp-4 font-light">
+        Fitment Auto Parts is the indispensable address for high-end automotive
+        parts that meet the various needs of vehicle enthusiasts. From essential
+        engine parts to state-of-the-art electrical components, our wide range
+        of products allows you to find the perfect solutions for your vehicle’s
+        needs.
+      </p>
+    </div>
   );
 }

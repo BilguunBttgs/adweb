@@ -1,3 +1,4 @@
+import Catalog from "@/components/Catalog";
 import CategorySwiperCards from "@/components/cards/CategorySwiperCards";
 import Image from "next/image";
 
@@ -13,6 +14,7 @@ export default function Home() {
             </div>
           </section>
         </div>
+        <Catalog />
       </main>
     </>
   );

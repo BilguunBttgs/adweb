@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .main-section-wrapper {
-  @apply max-w-[1280px] p-5 w-full;
+  @apply max-w-[1390px] p-5 w-full;
 }
 .flex-center-row {
   @apply flex justify-center items-center;
